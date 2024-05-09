@@ -1,0 +1,41 @@
+:root {
+    --color-primario: #ffce00;
+    --color-sec: #92d500;
+    --color-ter: #ff8200;
+    --color-cuarto: #FFFFFF;
+    --color-quinto: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'system-ui';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+input,
+button,
+textarea {
+    color: var(--color-quinto);
+    border: none;
+    outline: none;
+}
